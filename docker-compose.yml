@@ -1,0 +1,7 @@
+services:
+  mobile-price-app:
+    build: .
+    container_name: mobile-price-predictor
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
